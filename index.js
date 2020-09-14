@@ -13,5 +13,5 @@ function productMax(a, b, c, d) {
   return Math.max((Math.max(a * c, a * d), Math.max(b * c, b * d)));
 }
 module.exports = {
-  productMax = productMax
+  productMax: productMax
 };
