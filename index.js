@@ -10,7 +10,8 @@ AtCoderの問題より
 'use strict';
 
 function productMax(a, b, c, d) {
-  return Math.max((Math.max(a * c, a * d), Math.max(b * c, b * d)));
+  //return Math.max((Math.max(a * c, a * d), Math.max(b * c, b * d)));
+  return Math.max(a * c, a * d, b * c, b * d);
 }
 module.exports = {
   productMax: productMax
